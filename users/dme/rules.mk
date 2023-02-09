@@ -1,1 +1,3 @@
-# AUTO_SHIFT_ENABLE = yes
+COMBO_ENABLE = yes
+SRC += dme_combo.c
+
