@@ -26,12 +26,12 @@ const uint16_t PROGMEM uscr_combo[] = {KC_H, KC_COMM, COMBO_END};
 const uint16_t PROGMEM scln_combo[] = {KC_DOT, KC_SLSH, COMBO_END};
 const uint16_t PROGMEM coln_combo[] = {KC_Z, KC_X, COMBO_END};
 // braces - vertical combos
-const uint16_t PROGMEM lcbr_combo[] = {KC_F, LGUI_T(KC_S), COMBO_END};
-const uint16_t PROGMEM lprn_combo[] = {KC_P, LSFT_T(KC_T), COMBO_END};
+const uint16_t PROGMEM lcbr_combo[] = {KC_F, LSFT_T(KC_S), COMBO_END};
+const uint16_t PROGMEM lprn_combo[] = {KC_P, LGUI_T(KC_T), COMBO_END};
 const uint16_t PROGMEM lbrc_combo[] = {KC_B, KC_G, COMBO_END};
 const uint16_t PROGMEM rbrc_combo[] = {KC_J, KC_M, COMBO_END};
-const uint16_t PROGMEM rprn_combo[] = {KC_L, LSFT_T(KC_N), COMBO_END};
-const uint16_t PROGMEM rcbr_combo[] = {KC_U, LGUI_T(KC_E), COMBO_END};
+const uint16_t PROGMEM rprn_combo[] = {KC_L, LGUI_T(KC_N), COMBO_END};
+const uint16_t PROGMEM rcbr_combo[] = {KC_U, LSFT_T(KC_E), COMBO_END};
 
 combo_t key_combos[] = {
   [MINS_COMBO] = COMBO(mins_combo, KC_MINS),
